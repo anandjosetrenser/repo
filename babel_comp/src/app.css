@@ -1,0 +1,8 @@
+input {
+  background: blue;
+  border: 1px solid red;
+}
+
+label {
+  color: blue;
+}

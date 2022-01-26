@@ -1,0 +1,48 @@
+{
+  "name": "@anand.jose/babel-react",
+  "version": "1.0.7",
+  "description": "React Boilerplate Component for npm",
+  "main": "./lib/BoilerplateComponent.js",
+  "source": "src/index.jsx",
+  "license": "MIT",
+  "scripts": {
+    "builds": "webpack"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.16",
+    "@babel/runtime": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.2",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "sass-loader": "^10.2.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.12.16",
+    "@babel/runtime": "^7.13.10",
+    "css-loader": "^5.0.2",
+    "style-loader": "^2.0.0",
+    "sass": "^1.49.0"
+  }
+}
